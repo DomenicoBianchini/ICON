@@ -10,7 +10,7 @@ L'obiettivo del lavoro è mettere in pratica le conoscenze acquisite durante il 
 ## Setup del Progetto
 Clonare il repository:  
 ```bash
-git clone https://github.com/<tuo-username>/ICON.git
+git clone https://github.com/DomenicoBianchini/ICON.git
 ```
 
 Installare le dipendenze:
