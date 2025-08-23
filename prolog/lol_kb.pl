@@ -5625,16 +5625,6 @@ partita(g5624, 12.0, 0.0, 1.0, 13.0, 620.6216934822472, 282.0, 214294.0, 1.36197
 
     % Regole:
 
-    % prec(Game1, Game2): Game1 è considerata precedente a Game2 se il game_id di Game1 è numericamente minore di Game2
-    prec(Game1, Game2) :-
-        partita(Game1, _, _, _, _, _, _, _, _, _, _, _),
-        partita(Game2, _, _, _, _, _, _, _, _, _, _, _),
-        sub_atom(Game1, 1, _, 0, ID1),
-        sub_atom(Game2, 1, _, _, ID2),
-        atom_number(ID1, Num1),
-        atom_number(ID2, Num2),
-        Num1 < Num2.
-
     % not_newbie(Game): il giocatore non è più inesperto se ha giocato più di 50 partite
     not_newbie(Game) :-
         sub_atom(Game, 1, _, 0, ID),
