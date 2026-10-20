@@ -1,4 +1,4 @@
-# ICON Course Project 2024/2025
+# ICON Course Project
 
 Questo repository raccoglie il progetto sviluppato per il corso di ICON
 2024/2025, tenuto dal Professor Nicola Fanizzi presso l'Università degli
